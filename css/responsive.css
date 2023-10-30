@@ -1,0 +1,240 @@
+@media(max-width:767px) {
+    .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .services .first {
+        padding: 30px 5px;
+    }
+
+    .works .owl-carousel .owl-nav button.owl-next,
+    .works .owl-carousel .owl-nav button.owl-prev {
+        display: none;
+    }
+
+    .services .first h2 {
+        font-size: 20px;
+    }
+
+    .services .first {
+        margin-bottom: 30px;
+    }
+
+    .services {
+        padding-bottom: 30px;
+    }
+
+    .about .content {
+        padding-bottom: 30px;
+    }
+
+    .why-us .features .feat {
+        padding: 20px 10px;
+
+    }
+
+    .why-us .features .feat h2 {
+        padding: 15px 0px;
+    }
+
+    .why-us .features {
+        padding-top: 40px;
+    }
+
+    .why-us .content {
+        padding-top: 0px;
+    }
+
+    .spread .words {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .works {
+        padding-top: 40px;
+    }
+
+    .works .title {
+        padding-bottom: 0px;
+    }
+
+    .top-footer .social {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .top-footer .social ul {
+        justify-content: center;
+    }
+
+    .top-footer .social {
+        margin-top: 20px;
+    }
+
+    .top-footer .first h2 {
+        color: #000;
+    }
+
+    .bg-content {
+        overflow: hidden;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: none;
+    }
+
+    .navbar-light .navbar-toggler-icon::before {
+        content: "\f0c9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .bg-content {
+        padding-top: 180px;
+        display: block;
+    }
+
+    .bg-content h2 {
+        font-size: 45px;
+    }
+
+    .bg-content ul {
+        display: block !important;
+    }
+
+    .bg-content p {
+        padding: 20px 0px;
+    }
+
+    .link-contact {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .bg-content {
+        height: 800px;
+    }
+
+    .offcanvas {
+        flex-direction: column;
+        height: 100%;
+        background-color: var(--primary-color);
+        padding-top: 50px;
+    }
+
+    .top-footer {
+        padding: 20px 0px;
+    }
+
+    .btn-close {
+        background-image: none;
+        opacity: 1;
+        position: absolute;
+        left: 10%;
+        display: block;
+    }
+
+    .btn-close .svg-inline--fa {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .bg-content ul li:last-of-type a {
+        margin-right: 0px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-light .navbar-toggler-icon {
+        background: none;
+    }
+
+    .navbar-light .navbar-toggler-icon::before {
+        content: "\f0c9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .about .content {
+        padding-bottom: 30px;
+    }
+
+    .about img {
+        margin-top: 200px;
+    }
+
+    .why-us .features .feat {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .services .first {
+        padding: 30px 20px;
+        margin-bottom: 25px;
+    }
+
+    .spread {
+        padding-bottom: 40px;
+    }
+
+    .spread .words {
+        padding-top: 70px;
+    }
+
+    .spread .photo {
+        padding-top: 100px;
+    }
+
+    .why-us .features {
+        display: block;
+    }
+
+    .why-us .features .feat {
+        width: 100%;
+    }
+
+    .why-us .features .feat:nth-child(2) {
+        top: 0px;
+    }
+
+    .btn-close {
+        background-image: none;
+        opacity: 1;
+        position: absolute;
+        left: 10%;
+        display: block;
+    }
+
+    .btn-close .svg-inline--fa {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .offcanvas {
+        flex-direction: column;
+        height: 100%;
+        background-color: var(--primary-color);
+        padding-top: 50px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar .link-contact {
+        margin: auto;
+    }
+}
